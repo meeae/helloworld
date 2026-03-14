@@ -176,7 +176,7 @@ function GNB() {
                             children: "의사랑"
                         }, void 0, false, {
                             fileName: "[project]/ysarang/components/layout/GNB.tsx",
-                            lineNumber: 32,
+                            lineNumber: 38,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$ysarang$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
@@ -193,19 +193,19 @@ function GNB() {
                                     children: item.label
                                 }, item.href, false, {
                                     fileName: "[project]/ysarang/components/layout/GNB.tsx",
-                                    lineNumber: 39,
+                                    lineNumber: 45,
                                     columnNumber: 17
                                 }, this);
                             })
                         }, void 0, false, {
                             fileName: "[project]/ysarang/components/layout/GNB.tsx",
-                            lineNumber: 35,
+                            lineNumber: 41,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/ysarang/components/layout/GNB.tsx",
-                    lineNumber: 31,
+                    lineNumber: 37,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$ysarang$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -219,12 +219,12 @@ function GNB() {
                                     children: link.label
                                 }, link.href, false, {
                                     fileName: "[project]/ysarang/components/layout/GNB.tsx",
-                                    lineNumber: 57,
+                                    lineNumber: 63,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/ysarang/components/layout/GNB.tsx",
-                            lineNumber: 55,
+                            lineNumber: 61,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$ysarang$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$ysarang$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -233,7 +233,7 @@ function GNB() {
                             children: "로그인"
                         }, void 0, false, {
                             fileName: "[project]/ysarang/components/layout/GNB.tsx",
-                            lineNumber: 62,
+                            lineNumber: 68,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$ysarang$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$ysarang$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -242,24 +242,24 @@ function GNB() {
                             children: "제품 도입 문의"
                         }, void 0, false, {
                             fileName: "[project]/ysarang/components/layout/GNB.tsx",
-                            lineNumber: 65,
+                            lineNumber: 71,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/ysarang/components/layout/GNB.tsx",
-                    lineNumber: 54,
+                    lineNumber: 60,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/ysarang/components/layout/GNB.tsx",
-            lineNumber: 30,
+            lineNumber: 36,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/ysarang/components/layout/GNB.tsx",
-        lineNumber: 29,
+        lineNumber: 35,
         columnNumber: 5
     }, this);
 }

@@ -3,14 +3,20 @@
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 
-const NAV_ITEMS = [
+type NavItem = {
+  label: string
+  href: string
+  highlight?: boolean
+}
+
+const NAV_ITEMS: NavItem[] = [
   { label: '회사소개', href: '/about' },
   { label: '제품소개', href: '/products' },
   { label: '제품 업데이트', href: '/updates', highlight: true },
   { label: '주요 일정', href: '/schedule', highlight: true },
   { label: '고객센터', href: '/support' },
   { label: '미소센터', href: '/miso' },
-] as const
+]
 
 const UTIL_LINKS = [
   { label: '원격지원', href: '/remote' },
