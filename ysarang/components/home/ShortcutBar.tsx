@@ -12,7 +12,7 @@ const SHORTCUTS = [
 export function ShortcutBar() {
   return (
     <section className="border-t border-[#E5E5E5] bg-[#F8F8F8] py-4">
-      <div className="mx-auto grid max-w-6xl grid-cols-1 md:grid-cols-5">
+      <div className="mx-auto grid max-w-6xl grid-cols-1 sm:grid-cols-3 md:grid-cols-5">
         {SHORTCUTS.map((item) => {
           const Icon = item.icon
           return (

@@ -69,7 +69,7 @@ export function HeroBanner() {
 
   return (
     <section
-      className="bg-[var(--hero-bg)] text-white"
+      className="bg-[#1a1a2e] text-white"
       onMouseEnter={() => setPaused(true)}
       onMouseLeave={() => setPaused(false)}
     >
@@ -90,7 +90,7 @@ export function HeroBanner() {
               </Button>
             </Link>
             <Link href={slide.secondaryCta.href}>
-              <Button variant="ghost" className="text-sm text-[var(--hero-bg)]">
+              <Button variant="ghost" className="text-sm text-[#1a1a2e]">
                 {slide.secondaryCta.text}
               </Button>
             </Link>
