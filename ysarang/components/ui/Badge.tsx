@@ -1,10 +1,10 @@
 export type BadgeType = 'new' | 'update' | 'fix' | 'urgent'
 
 const TAG_STYLES: Record<BadgeType, string> = {
-  new: 'bg-tag-new-light text-tag-new',
-  update: 'bg-tag-update-light text-tag-update',
-  fix: 'bg-tag-fix-light text-tag-fix',
-  urgent: 'bg-tag-urgent-light text-tag-urgent',
+  new: 'bg-[#FCEBEB] text-[#A32D2D]',
+  update: 'bg-[#E6F1FB] text-[#185FA5]',
+  fix: 'bg-[#EAF3DE] text-[#3B6D11]',
+  urgent: 'bg-[#FAEEDA] text-[#854F0B]',
 }
 
 const TAG_LABELS: Record<BadgeType, string> = {

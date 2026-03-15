@@ -9,8 +9,8 @@ export function calcDday(targetDate: string): number {
 }
 
 export function getDdayColor(dday: number): string {
-  if (dday <= 7) return 'text-status-danger'
-  if (dday <= 14) return 'text-status-warning'
-  return 'text-status-safe'
+  if (dday <= 7) return 'text-[#C8290A]'
+  if (dday <= 14) return 'text-[#854F0B]'
+  return 'text-[#3B6D11]'
 }
 

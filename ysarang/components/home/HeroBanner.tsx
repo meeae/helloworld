@@ -99,7 +99,7 @@ export function HeroBanner() {
 
         {/* Right: highlights card */}
         <div className="mt-4 flex flex-1 justify-end md:mt-0">
-          <div className="w-full max-w-md rounded-[10px] border border-gray-700 bg-gray-900 p-4">
+          <div className="w-full max-w-md rounded-[10px] border border-[#374151] bg-[#111827] p-4">
             <h2 className="mb-3 text-card text-gray-100">이번 업데이트에서 달라지는 점</h2>
             <ul className="flex flex-col gap-2 text-caption text-gray-200">
               {slide.highlights.map((item, i) => (
