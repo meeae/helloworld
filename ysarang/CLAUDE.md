@@ -21,27 +21,27 @@
 ## 2. 개발 진행 기록
 
 ### 완료된 작업 ✅
-- [x] Next.js 14 프로젝트 초기화
-- [x] tailwind.config.js 브랜드 컬러 토큰 등록
-- [x] globals.css Pretendard 폰트 설정
-- [x] lib/dday.ts D-day 계산 유틸
-- [x] data/updates.ts mock 데이터
-- [x] data/schedules.ts mock 데이터 (2026년 기준)
-- [x] data/faqs.ts mock 데이터
-- [x] components/ui/Badge.tsx
-- [x] components/ui/DdayBadge.tsx
-- [x] components/ui/Button.tsx
-- [x] components/layout/AlertBar.tsx
-- [x] components/layout/GNB.tsx (NavItem 타입 명시 완료)
-- [x] components/layout/Footer.tsx
-- [x] components/home/DdayStrip.tsx
-- [x] components/home/HeroBanner.tsx
-- [x] components/home/UpdatesPanel.tsx
-- [x] components/home/SchedulePanel.tsx
-- [x] components/home/FaqPanel.tsx
-- [x] components/home/ShortcutBar.tsx
-- [x] app/layout.tsx 조립
-- [x] app/page.tsx 조립
+- [x] Next.js 14 프로젝트 초기화 — App Router + TypeScript 기반 세팅
+- [x] tailwind.config.js 브랜드 컬러 토큰 등록 — brand, status 컬러 확장
+- [x] globals.css Pretendard 폰트 설정 — 타이포 클래스(text-hero, text-card 등) 정의
+- [x] lib/dday.ts D-day 계산 유틸 — calcDday, getDdayColor, 지난 일정 필터 지원
+- [x] data/updates.ts mock 데이터 — 제품 업데이트 목록 시딩
+- [x] data/schedules.ts mock 데이터 (2026년 기준) — targetDate 2026으로 갱신, 패널 노출 보정
+- [x] data/faqs.ts mock 데이터 — id, question, href 구조로 정리
+- [x] components/ui/Badge.tsx — 신규/업데이트/수정/긴급 태그, tailwind 토큰 적용
+- [x] components/ui/DdayBadge.tsx — D-day 색상 규칙(danger/warning/safe) 반영
+- [x] components/ui/Button.tsx — primary / ghost / text 변형
+- [x] components/layout/AlertBar.tsx — sessionStorage 닫기, type별 배경색
+- [x] components/layout/GNB.tsx — NavItem 타입 명시로 Vercel 빌드 에러 해결, highlight optional 처리
+- [x] components/layout/Footer.tsx — 공통 푸터 레이아웃
+- [x] components/home/DdayStrip.tsx — bg-brand-light, border-brand-light 토큰화
+- [x] components/home/HeroBanner.tsx — 히어로 배경 CSS 변수(--hero-bg) 추출, 카드 border-gray-700
+- [x] components/home/UpdatesPanel.tsx — UPDATES mock 연동, 최대 4건 노출
+- [x] components/home/SchedulePanel.tsx — 지난 일정 필터, DdayBadge 연동
+- [x] components/home/FaqPanel.tsx — FAQ 링크(href) 렌더, 4건 노출
+- [x] components/home/ShortcutBar.tsx — 5열 바로가기, aria-label 전체 적용
+- [x] app/layout.tsx 조립 — AlertBar + GNB + Footer 구성
+- [x] app/page.tsx 조립 — 메인 섹션 조립 (DdayStrip, HeroBanner, 3패널, ShortcutBar)
 - [x] Vercel 배포 완료 (https://ysarang.vercel.app)
 
 ### 진행 중 🔄

@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+:root {
+  --hero-bg: #1a1a2e;
+}
+
 html,
 body {
   padding: 0;

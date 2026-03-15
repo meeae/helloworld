@@ -14,7 +14,7 @@ export function DdayStrip() {
   if (upcoming.length === 0) return null
 
   return (
-    <div className="border-b border-[#FAEEDA] bg-[#FFF8F0] py-2 px-6">
+    <div className="border-b border-brand-light bg-brand-light py-2 px-6">
       <div className="mx-auto flex max-w-6xl items-center gap-4 overflow-x-auto text-caption">
         {upcoming.map((schedule) => (
           <div key={schedule.id} className="flex items-center gap-2 whitespace-nowrap">

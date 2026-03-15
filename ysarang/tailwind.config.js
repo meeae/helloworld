@@ -18,6 +18,12 @@ const config = {
           safe: '#3B6D11',
           info: '#185FA5',
         },
+        tag: {
+          new: { light: '#FCEBEB', DEFAULT: '#A32D2D' },
+          update: { light: '#E6F1FB', DEFAULT: '#185FA5' },
+          fix: { light: '#EAF3DE', DEFAULT: '#3B6D11' },
+          urgent: { light: '#FAEEDA', DEFAULT: '#854F0B' },
+        },
       },
     },
   },
